@@ -1,0 +1,17 @@
+services:
+  petstore:
+    image: api:v1
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+
+      - ./:/usr/workspace
+#    command: /bin/sh -c "STAGE=$STAGE pytest -sv -o log_cli=true -m=$SUITE --alluredir=report"
+    command: /bin/sh -c "python -m pytest -sv -o log_cli=true -m='$SUITE' --alluredir=report"
+#    environment:
+#      STAGE: ${STAGE:-dev}
+#      SUITE: ${SUITE:-regression}
+#      THREADS: ${THREADS:-4}
+    shm_size: 2gb
+    tty: true

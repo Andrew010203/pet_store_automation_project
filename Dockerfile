@@ -4,7 +4,9 @@ WORKDIR /usr/workspace
 
 COPY ./ /usr/workspace
 
-#RUN pip3 install requests
+RUN apk add --no-cache gcc musl-dev libffi-dev
 RUN pip install --no-cache-dir -r requirements.txt
+COPY . .
+
 
 CMD ["pytest", "-s", "-v"]

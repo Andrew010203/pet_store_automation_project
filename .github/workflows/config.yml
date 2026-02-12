@@ -9,22 +9,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       - name: Checkout gh-pages
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           ref: gh-pages
-          path: ./.github/gh-pages
-      - name: Run API Tests
+          path: gh-pages-dir
+          persist-credentials: false
 
+      - name: Run API Tests
         run: docker compose up petstore
 
       - name: Copy Allure history
         run: |
           mkdir -p report/history
-          if [ -d "./.github/gh-pages/history" ]; then
-            cp -R ./.github/gh-pages/history/* report/history/
+          if [ -d "gh-pages-dir/history" ]; then
+            cp -R gh-pages-dir/history/* report/history/
           fi
       - name: Generate Allure-report
         run: docker compose up report

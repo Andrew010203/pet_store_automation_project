@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           ref: gh-pages
-          path: gh-pages-dir
+          path: ./.github/gh-pages
       - name: Run API Tests
 
         run: docker compose up petstore
@@ -23,8 +23,8 @@ jobs:
       - name: Copy Allure history
         run: |
           mkdir -p report/history
-          if [ -d "gh-pages-dir/history" ]; then
-            cp -R gh-pages-dir/history/* report/history/
+          if [ -d "./.github/gh-pages/history" ]; then
+            cp -R ./.github/gh-pages/history/* report/history/
           fi
       - name: Generate Allure-report
         run: docker compose up report

@@ -7,7 +7,7 @@ services:
     volumes:
 
       - ./:/usr/workspace
-    command: /bin/sh -c "python -m pytest -sv -o log_cli=true -m='$SUITE' --alluredir=report"
+    command: /bin/sh -c "python -m pytest -sv -o log_cli=true -m='$SUITE' --alluredir=report --ignore=gh-pages-dir"
 
     shm_size: 2gb
     tty: true

@@ -19,7 +19,7 @@ jobs:
           persist-credentials: false
 
       - name: Run API Tests
-        run: docker compose up petstore pytest --ignore=gh-pages-dir
+        run: docker compose up petstore
 
       - name: Fix permissions
         run: sudo chown -R $USER:$USER .

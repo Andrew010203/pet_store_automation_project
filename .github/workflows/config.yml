@@ -22,7 +22,8 @@ jobs:
 
       - name: Run API Tests
 #        run: docker compose up petstore
-        run: docker compose up --build --exit-code-from petstore petstore
+#        run: docker compose up --build --exit-code-from petstore petstore
+        run: docker compose run --rm petstore
 
       - name: Fix permissions
         run: sudo chown -R $USER:$USER .

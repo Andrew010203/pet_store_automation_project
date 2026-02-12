@@ -1,0 +1,38 @@
+name: API Tests
+
+on:
+  workflow_dispatch:
+
+
+jobs:
+  api-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Checkout gh-pages
+        uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+          path: gh-pages-dir
+      - name: Run API Tests
+
+        run: docker compose up petstore
+
+      - name: Copy Allure history
+        run: |
+          mkdir -p report/history
+          if [ -d "gh-pages-dir/history" ]; then
+            cp -R gh-pages-dir/history/* report/history/
+          fi
+      - name: Generate Allure-report
+        run: docker compose up report
+
+      - name: Deploy to Github Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.5
+        with:
+          token: ${{ secrets.CI_TOKEN }}
+          branch: gh-pages
+          folder: allure-report
+          clean: false

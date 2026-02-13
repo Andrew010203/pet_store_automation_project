@@ -17,12 +17,8 @@ WORKDIR /usr/workspace
 # Устанавливаем зависимости
 RUN apk add --no-cache openjdk11-jre curl tar bash
 
-# Скачиваем и устанавливаем Allure (исправленная ссылка)
-RUN curl -o allure-2.24.1.tgz -Ls https://github.com \
-    && mkdir -p /opt \
-    && tar -zxvf allure-2.24.1.tgz -C /opt/ \
-    && ln -s /opt/allure-2.24.1/bin/allure /usr/bin/allure \
-    && rm allure-2.24.1.tgz
+# Скачиваем Allure одной строкой (убедись, что ссылка полная!)
+RUN curl -Ls https://github.com -o allure.tgz && mkdir -p /opt && tar -zxvf allure.tgz -C /opt/ && ln -s /opt/allure-2.24.1/bin/allure /usr/bin/allure && rm allure.tgz
 
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt

@@ -16,12 +16,17 @@ jobs:
           ref: gh-pages
           path: gh-pages-dir # Чтобы не путаться, сменим имя
 
+
+
       - name: Run API Tests
-        # Запускаем petstore. Он создаст папку report/ (как прописано в compose)
         run: docker compose up petstore
 
+      - name: Fix permissions
+        if: always() # Выполнять, даже если тесты упали
+        run: sudo chown -R $USER:$USER .
+
       - name: Copy Allure history
-        # Копируем историю из gh-pages в папку report (которую создал контейнер)
+        if: always()
         run: |
           mkdir -p report/history
           if [ -d "gh-pages-dir/history" ]; then

@@ -14,11 +14,12 @@ FROM python:3.12.1-alpine3.18
 
 WORKDIR /usr/workspace
 
-# Устанавливаем Java (нужна для Allure) и зависимости для скачивания
-RUN apk add --no-cache openjdk11-jre curl tar
+# Устанавливаем зависимости
+RUN apk add --no-cache openjdk11-jre curl tar bash
 
-# Скачиваем и устанавливаем Allure
+# Скачиваем и устанавливаем Allure (исправленная ссылка)
 RUN curl -o allure-2.24.1.tgz -Ls https://github.com \
+    && mkdir -p /opt \
     && tar -zxvf allure-2.24.1.tgz -C /opt/ \
     && ln -s /opt/allure-2.24.1/bin/allure /usr/bin/allure \
     && rm allure-2.24.1.tgz

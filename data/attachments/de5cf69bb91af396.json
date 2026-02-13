@@ -1,0 +1,18 @@
+{
+    "id": 67,
+    "category": {
+        "id": 66,
+        "name": "thank.js"
+    },
+    "name": "Ruth Roth",
+    "photoUrls": [
+        "https://harris.com/"
+    ],
+    "tags": [
+        {
+            "id": 78,
+            "name": "keithcobb"
+        }
+    ],
+    "status": "available"
+}

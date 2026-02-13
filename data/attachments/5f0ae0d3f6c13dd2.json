@@ -1,0 +1,18 @@
+{
+    "id": 7567,
+    "category": {
+        "id": 54,
+        "name": "time.css"
+    },
+    "name": "Tara Torres",
+    "photoUrls": [
+        "https://johnson.com/"
+    ],
+    "tags": [
+        {
+            "id": 22,
+            "name": "emily80"
+        }
+    ],
+    "status": "available"
+}

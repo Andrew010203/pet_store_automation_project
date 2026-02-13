@@ -24,7 +24,7 @@ RUN curl -Ls ${ALLURE_URL} -o allure.tgz \
     && mkdir -p /opt \
     && tar -zxvf allure.tgz -C /opt/ \
     && ln -s /opt/allure-${ALLURE_VERSION}/bin/allure /usr/bin/allure \
-    && rm allure.tgz \
+    && rm allure.tgz
 
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt

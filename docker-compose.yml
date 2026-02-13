@@ -15,12 +15,20 @@ services:
     shm_size: 2gb
     tty: true
 
+#  report:
+#    image: api:v1
+#    build:
+#      context: .
+#      dockerfile: Dockerfile
+#    volumes:
+#      - ./:/usr/workspace
+#    command: /bin/sh -c "ls -la && allure generate report --clean -o allure-report"
+#    working_dir: /usr/workspace
+
   report:
     image: api:v1
-    build:
-      context: .
-      dockerfile: Dockerfile
+    build: .
     volumes:
       - ./:/usr/workspace
-    command: /bin/sh -c "ls -la && allure generate report --clean -o allure-report"
+    command: /bin/sh -c "allure --version && allure generate report --clean -o allure-report"
     working_dir: /usr/workspace

@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           ref: gh-pages
-          path: gh-pages-dir # Чтобы не путаться, сменим имя
+          path: gh-pages-dir
 
 
 
@@ -24,7 +24,7 @@ jobs:
         run: docker compose up petstore
 
       - name: Fix permissions
-        if: always() # Выполнять, даже если тесты упали
+        if: always()
         run: sudo chown -R $USER:$USER .
 
       - name: Copy Allure history

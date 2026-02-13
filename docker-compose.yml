@@ -7,23 +7,11 @@ services:
     volumes:
 
       - ./:/usr/workspace
-#    command: /bin/sh -c "STAGE=$STAGE pytest -sv -o log_cli=true -m=$SUITE --alluredir=report"
-#    command: /bin/sh -c "python -m pytest -sv -o log_cli=true -m='$SUITE' --alluredir=report"
-#    command: /bin/sh -c "python -m pytest -sv -o log_cli=true --alluredir=report"
     command: /bin/sh -c "python -m pytest -sv -o log_cli=true --alluredir=report --ignore=gh-pages-dir"
 
     shm_size: 2gb
     tty: true
 
-#  report:
-#    image: api:v1
-#    build:
-#      context: .
-#      dockerfile: Dockerfile
-#    volumes:
-#      - ./:/usr/workspace
-#    command: /bin/sh -c "ls -la && allure generate report --clean -o allure-report"
-#    working_dir: /usr/workspace
 
   report:
     image: api:v1

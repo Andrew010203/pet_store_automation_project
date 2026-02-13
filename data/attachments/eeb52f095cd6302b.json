@@ -1,0 +1,18 @@
+{
+    "id": 88,
+    "category": {
+        "id": 49,
+        "name": "near.css"
+    },
+    "name": "Steven Hall",
+    "photoUrls": [
+        "http://www.bell-hughes.net/"
+    ],
+    "tags": [
+        {
+            "id": 11,
+            "name": "osandoval"
+        }
+    ],
+    "status": "available"
+}

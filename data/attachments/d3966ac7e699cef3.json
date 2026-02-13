@@ -1,0 +1,18 @@
+{
+    "id": 55,
+    "category": {
+        "id": 17,
+        "name": "pretty.csv"
+    },
+    "name": "Gabriel Walters",
+    "photoUrls": [
+        "http://becker.biz/"
+    ],
+    "tags": [
+        {
+            "id": 74,
+            "name": "thomasvaldez"
+        }
+    ],
+    "status": "available"
+}

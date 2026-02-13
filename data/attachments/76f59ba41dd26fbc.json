@@ -1,0 +1,431 @@
+[
+    {
+        "id": 1770980116023,
+        "name": "PerfDog_sold_9",
+        "photoUrls": [
+            "https://perfdog.com/dog.jpg"
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 9223372016900019742,
+        "category": {
+            "id": 1,
+            "name": "Dog"
+        },
+        "name": "Bobby",
+        "photoUrls": [
+            "https://example.com/photo1.jpg",
+            "https://example.com/photo2.jpg"
+        ],
+        "tags": [
+            {
+                "id": 2,
+                "name": "shy"
+            },
+            {
+                "id": 3,
+                "name": "vaccinated"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 9223372016900019751,
+        "category": {
+            "id": 1234,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 1234,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 9223372016900019767,
+        "category": {
+            "id": 1,
+            "name": "Dog"
+        },
+        "name": "Bobby",
+        "photoUrls": [
+            "https://example.com/photo1.jpg",
+            "https://example.com/photo2.jpg"
+        ],
+        "tags": [
+            {
+                "id": 2,
+                "name": "shy"
+            },
+            {
+                "id": 3,
+                "name": "vaccinated"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 1770980389579,
+        "name": "PerfDog_sold_9",
+        "photoUrls": [
+            "https://perfdog.com/dog.jpg"
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 9223372016900019769,
+        "category": {
+            "id": 1,
+            "name": "Dog"
+        },
+        "name": "Bobby",
+        "photoUrls": [
+            "https://example.com/photo1.jpg",
+            "https://example.com/photo2.jpg"
+        ],
+        "tags": [
+            {
+                "id": 2,
+                "name": "shy"
+            },
+            {
+                "id": 3,
+                "name": "vaccinated"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 9223372016900017489,
+        "category": {
+            "id": 0,
+            "name": "ABOBA"
+        },
+        "name": "cat",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 9223372016900019771,
+        "category": {
+            "id": 1,
+            "name": "Dog"
+        },
+        "name": "Bobby",
+        "photoUrls": [
+            "https://example.com/photo1.jpg",
+            "https://example.com/photo2.jpg"
+        ],
+        "tags": [
+            {
+                "id": 2,
+                "name": "shy"
+            },
+            {
+                "id": 3,
+                "name": "vaccinated"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 9223372016900019772,
+        "category": {
+            "id": 1,
+            "name": "Dog"
+        },
+        "name": "Bobby",
+        "photoUrls": [
+            "https://example.com/photo1.jpg",
+            "https://example.com/photo2.jpg"
+        ],
+        "tags": [
+            {
+                "id": 2,
+                "name": "shy"
+            },
+            {
+                "id": 3,
+                "name": "vaccinated"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 9223372016900019796,
+        "category": {
+            "id": 1,
+            "name": "Dog"
+        },
+        "name": "Bobby",
+        "photoUrls": [
+            "https://example.com/photo1.jpg",
+            "https://example.com/photo2.jpg"
+        ],
+        "tags": [
+            {
+                "id": 2,
+                "name": "shy"
+            },
+            {
+                "id": 3,
+                "name": "vaccinated"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 9223372016900019817,
+        "category": {
+            "id": 1,
+            "name": "Dog"
+        },
+        "name": "Bobby",
+        "photoUrls": [
+            "https://example.com/photo1.jpg",
+            "https://example.com/photo2.jpg"
+        ],
+        "tags": [
+            {
+                "id": 2,
+                "name": "shy"
+            },
+            {
+                "id": 3,
+                "name": "vaccinated"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 9223372016900019818,
+        "category": {
+            "id": 1,
+            "name": "Dog"
+        },
+        "name": "Bobby",
+        "photoUrls": [
+            "https://example.com/photo1.jpg",
+            "https://example.com/photo2.jpg"
+        ],
+        "tags": [
+            {
+                "id": 2,
+                "name": "shy"
+            },
+            {
+                "id": 3,
+                "name": "vaccinated"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 9223372016900019876,
+        "category": {
+            "id": 1,
+            "name": "Dog"
+        },
+        "name": "Bobby",
+        "photoUrls": [
+            "https://example.com/photo1.jpg",
+            "https://example.com/photo2.jpg"
+        ],
+        "tags": [
+            {
+                "id": 2,
+                "name": "shy"
+            },
+            {
+                "id": 3,
+                "name": "vaccinated"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 60607,
+        "category": {
+            "id": 698,
+            "name": "Labrador"
+        },
+        "name": "Updated_Labrador",
+        "photoUrls": [
+            "https://example.com/Updated.jpg"
+        ],
+        "tags": [
+            {
+                "id": 840,
+                "name": "updated"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 9223372016900019896,
+        "category": {
+            "id": 0,
+            "name": "Dog"
+        },
+        "name": "Browny",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 103186,
+        "category": {
+            "id": 3,
+            "name": "feeling"
+        },
+        "name": "Harry Garcia",
+        "photoUrls": [
+            "https://placekitten.com/190/725"
+        ],
+        "tags": [
+            {
+                "id": 6,
+                "name": "network"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 9223372016900019421,
+        "category": {
+            "id": 1234,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 1234,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 12,
+        "category": {
+            "id": 0,
+            "name": "dogs"
+        },
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 9,
+        "category": {
+            "id": 0,
+            "name": "cats"
+        },
+        "name": "King Kong",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 24284,
+        "category": {
+            "id": 49763,
+            "name": "Christina Rodriguez"
+        },
+        "name": "James Mcbride",
+        "photoUrls": [
+            "https://dummyimage.com/725x696"
+        ],
+        "tags": [],
+        "status": "sold"
+    },
+    {
+        "id": 13,
+        "category": {
+            "id": 0,
+            "name": "cats"
+        },
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 1770983644213,
+        "category": {
+            "id": 1,
+            "name": "Dogs"
+        },
+        "name": "UpdatedTestDog",
+        "photoUrls": [],
+        "tags": [],
+        "status": "sold"
+    },
+    {
+        "id": 1770983679281,
+        "category": {
+            "id": 1,
+            "name": "Dogs"
+        },
+        "name": "UpdatedTestDog",
+        "photoUrls": [],
+        "tags": [],
+        "status": "sold"
+    },
+    {
+        "id": 1,
+        "category": {
+            "id": 1,
+            "name": "cat"
+        },
+        "name": "dog",
+        "photoUrls": [],
+        "tags": [],
+        "status": "sold"
+    }
+]

@@ -14,11 +14,16 @@ FROM python:3.12.1-alpine3.18
 
 WORKDIR /usr/workspace
 
-# Устанавливаем зависимости
 RUN apk add --no-cache openjdk11-jre curl tar bash
 
-# Скачиваем Allure одной строкой (убедись, что ссылка полная!)
-RUN curl -Ls https://github.com -o allure.tgz && mkdir -p /opt && tar -zxvf allure.tgz -C /opt/ && ln -s /opt/allure-2.24.1/bin/allure /usr/bin/allure && rm allure.tgz
+# Ссылка в переменной, чтобы исключить ошибки парсинга
+ARG ALLURE_URL=https://github.com
+
+RUN curl -Ls ${ALLURE_URL} -o allure.tgz \
+    && mkdir -p /opt \
+    && tar -zxvf allure.tgz -C /opt/ \
+    && ln -s /opt/allure-2.24.1/bin/allure /usr/bin/allure \
+    && rm allure.tgz
 
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt

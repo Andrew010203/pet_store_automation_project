@@ -7,29 +7,21 @@ on:
 jobs:
   api-tests:
     runs-on: ubuntu-latest
-    env:
-      SUITE: ""
-
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v2
 
-      - name: Checkout gh-pages
-        uses: actions/checkout@v4
+      - name: Checkout gh-pages (for history)
+        uses: actions/checkout@v2
         with:
           ref: gh-pages
-          path: gh-pages-dir
-          persist-credentials: false
+          path: gh-pages-dir # Чтобы не путаться, сменим имя
 
       - name: Run API Tests
-#        run: docker compose up petstore
-#        run: docker compose up --build --exit-code-from petstore petstore
-        run: docker compose run --rm petstore
-
-      - name: Fix permissions
-        run: sudo chown -R $USER:$USER .
+        # Запускаем petstore. Он создаст папку report/ (как прописано в compose)
+        run: docker compose up petstore
 
       - name: Copy Allure history
-        if: always()
+        # Копируем историю из gh-pages в папку report (которую создал контейнер)
         run: |
           mkdir -p report/history
           if [ -d "gh-pages-dir/history" ]; then
@@ -37,25 +29,15 @@ jobs:
           fi
 
       - name: Generate Allure-report
-        uses: simple-elf/allure-report-action@master
-        if: always()
-        with:
-          allure_results: report
-          allure_history: allure-history
-          keep_reports: 20
-
-#        run: docker compose up report
-
-#      - name: Fix permissions after report
-#        run: sudo chown -R $USER:$USER .
-#
-#      - name: List files (Debug)
-#        run: ls -la
+        # Контейнер возьмет данные из report/ и создаст allure-report/
+        run: docker compose up report
 
       - name: Deploy to Github Pages
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
           token: ${{ secrets.CI_TOKEN }}
           branch: gh-pages
-          folder: allure-report
-#          clean: false
+          folder: allure-report # Тут всё верно
+          clean: false
+
+

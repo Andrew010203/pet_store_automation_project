@@ -3,6 +3,8 @@ name: API Tests
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
 
 jobs:
   api-tests:

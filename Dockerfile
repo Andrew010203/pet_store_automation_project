@@ -16,7 +16,7 @@ WORKDIR /usr/workspace
 
 RUN apk add --no-cache openjdk11-jre curl tar bash
 
-# Ссылка в переменной, чтобы исключить ошибки парсинга
+# ВАЖНО: Ссылка должна быть полной, до самого конца (.tgz)
 ARG ALLURE_URL=https://github.com
 
 RUN curl -Ls ${ALLURE_URL} -o allure.tgz \

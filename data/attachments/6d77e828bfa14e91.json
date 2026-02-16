@@ -1,0 +1,18 @@
+{
+    "id": 25,
+    "category": {
+        "id": 62,
+        "name": "hot.bmp"
+    },
+    "name": "Angela Richardson",
+    "photoUrls": [
+        "http://www.gonzalez-martin.biz/"
+    ],
+    "tags": [
+        {
+            "id": 34,
+            "name": "snyderandrea"
+        }
+    ],
+    "status": "available"
+}

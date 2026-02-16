@@ -1,0 +1,18 @@
+{
+    "id": 50,
+    "category": {
+        "id": 8,
+        "name": "window.odt"
+    },
+    "name": "Jeremy Campbell",
+    "photoUrls": [
+        "http://www.henry.net/"
+    ],
+    "tags": [
+        {
+            "id": 97,
+            "name": "robin89"
+        }
+    ],
+    "status": "available"
+}

@@ -1,0 +1,18 @@
+{
+    "id": 50,
+    "category": {
+        "id": 41,
+        "name": "morning.flac"
+    },
+    "name": "Alexis Brown",
+    "photoUrls": [
+        "http://alexander.net/"
+    ],
+    "tags": [
+        {
+            "id": 32,
+            "name": "jenniferrichardson"
+        }
+    ],
+    "status": "available"
+}

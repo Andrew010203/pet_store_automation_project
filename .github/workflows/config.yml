@@ -21,6 +21,9 @@ jobs:
 
 
       - name: Run API Tests
+        env:
+          TOKEN: ${{ secrets.TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
         run: docker compose up petstore
 
       - name: Fix permissions

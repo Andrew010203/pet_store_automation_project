@@ -1,0 +1,18 @@
+{
+    "id": 59,
+    "category": {
+        "id": 62,
+        "name": "word.wav"
+    },
+    "name": "Karen Miller",
+    "photoUrls": [
+        "https://spence-guzman.com/"
+    ],
+    "tags": [
+        {
+            "id": 44,
+            "name": "deannabarrera"
+        }
+    ],
+    "status": "available"
+}

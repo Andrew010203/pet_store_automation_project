@@ -1,0 +1,18 @@
+{
+    "id": 74,
+    "category": {
+        "id": 6,
+        "name": "role.mp3"
+    },
+    "name": "Candace Farmer",
+    "photoUrls": [
+        "http://carpenter.com/"
+    ],
+    "tags": [
+        {
+            "id": 19,
+            "name": "hwebb"
+        }
+    ],
+    "status": "available"
+}

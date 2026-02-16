@@ -1,0 +1,18 @@
+{
+    "id": 48,
+    "category": {
+        "id": 59,
+        "name": "free.mov"
+    },
+    "name": "James Oconnor",
+    "photoUrls": [
+        "https://www.caldwell.com/"
+    ],
+    "tags": [
+        {
+            "id": 99,
+            "name": "evasquez"
+        }
+    ],
+    "status": "available"
+}

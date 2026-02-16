@@ -1,0 +1,18 @@
+{
+    "id": 80,
+    "category": {
+        "id": 31,
+        "name": "usually.mp3"
+    },
+    "name": "Jason Rogers",
+    "photoUrls": [
+        "http://www.wolf.com/"
+    ],
+    "tags": [
+        {
+            "id": 69,
+            "name": "jennifer81"
+        }
+    ],
+    "status": "available"
+}

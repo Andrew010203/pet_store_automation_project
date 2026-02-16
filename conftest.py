@@ -4,7 +4,7 @@ import datetime   # модуль для работы с датой и време
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
+# load_dotenv()
 # Токен бота Telegram для отправки сообщений
 TOKEN = os.getenv("TOKEN")
 # Идентификатор чата в Telegram, куда отправлять результаты
@@ -25,6 +25,7 @@ def pytest_terminal_summary(terminalreporter):
    Хук pytest, выполняющийся после завершения всех тестов.
    Собирает статистику по результатам и отправляет сводку в Telegram.
    """
+   load_dotenv()
    config = terminalreporter.config
    if hasattr(config, "workerinput"):
        return

@@ -1,0 +1,18 @@
+{
+    "id": 99,
+    "category": {
+        "id": 98,
+        "name": "whom.json"
+    },
+    "name": "Michael Collins",
+    "photoUrls": [
+        "https://young-peters.com/"
+    ],
+    "tags": [
+        {
+            "id": 11,
+            "name": "santiagojacob"
+        }
+    ],
+    "status": "available"
+}

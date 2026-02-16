@@ -1,0 +1,18 @@
+{
+    "id": 20,
+    "category": {
+        "id": 59,
+        "name": "community.css"
+    },
+    "name": "Rebecca Smith",
+    "photoUrls": [
+        "http://www.wilson.com/"
+    ],
+    "tags": [
+        {
+            "id": 46,
+            "name": "meganaguilar"
+        }
+    ],
+    "status": "available"
+}

@@ -1,0 +1,18 @@
+{
+    "id": 6069,
+    "category": {
+        "id": 97,
+        "name": "everybody.mp3"
+    },
+    "name": "Kimberly Logan",
+    "photoUrls": [
+        "http://mendez-arnold.net/"
+    ],
+    "tags": [
+        {
+            "id": 37,
+            "name": "bradleyterry"
+        }
+    ],
+    "status": "available"
+}

@@ -44,15 +44,26 @@ def pytest_terminal_summary(terminalreporter):
    # Проверяем, реально ли мы в облаке GitHub Actions
    is_github_actions = os.getenv("GITHUB_ACTIONS") == "true"
 
+   # if is_github_actions:
+   #     repo_name = os.getenv("GITHUB_REPOSITORY")
+   #     run_id = os.getenv("GITHUB_RUN_ID")
+   #     user, repo = repo_name.split("/")
+   #     # В CI используем динамическую ссылку
+   #     GITHUB_PAGE_URL = f"https://{user}.github.io/{repo}/{run_id}/"
+   # else:
+   #     # ЛОКАЛЬНО всегда используем эту жесткую ссылку
+   #     GITHUB_PAGE_URL = "https://andrew010203.github.io/pet_store_automation_project/"
    if is_github_actions:
        repo_name = os.getenv("GITHUB_REPOSITORY")
-       run_id = os.getenv("GITHUB_RUN_ID")
-       user, repo = repo_name.split("/")
-       # В CI используем динамическую ссылку
-       GITHUB_PAGE_URL = f"https://{user}.github.io/{repo}/{run_id}/"
+       # Переводим в нижний регистр, чтобы ссылка не билась
+       full_name = repo_name.lower()
+       user, repo = full_name.split("/")
+
+       # Пока твой деплой не настроен на подпапки, используем корень:
+       GITHUB_PAGE_URL = f"https://{user}.github.io/{repo}/"
    else:
-       # ЛОКАЛЬНО всегда используем эту жесткую ссылку
-       GITHUB_PAGE_URL = "https://andrew010203.github.io/pet_store_automation_project/"
+       # Локально
+       GITHUB_PAGE_URL = "https://andrew010203.github.io"
 
    config = terminalreporter.config
    if hasattr(config, "workerinput"):

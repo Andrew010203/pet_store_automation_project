@@ -1,0 +1,18 @@
+{
+    "id": 73,
+    "category": {
+        "id": 20,
+        "name": "once.jpg"
+    },
+    "name": "Tiffany Campbell",
+    "photoUrls": [
+        "https://martinez-taylor.com/"
+    ],
+    "tags": [
+        {
+            "id": 79,
+            "name": "webbchristopher"
+        }
+    ],
+    "status": "available"
+}

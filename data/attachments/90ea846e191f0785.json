@@ -1,0 +1,18 @@
+{
+    "id": 7,
+    "category": {
+        "id": 37,
+        "name": "Democrat.wav"
+    },
+    "name": "Kevin Smith",
+    "photoUrls": [
+        "https://www.freeman.biz/"
+    ],
+    "tags": [
+        {
+            "id": 77,
+            "name": "justinarmstrong"
+        }
+    ],
+    "status": "available"
+}

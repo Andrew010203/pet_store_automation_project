@@ -1,0 +1,18 @@
+{
+    "id": 2,
+    "category": {
+        "id": 73,
+        "name": "production.png"
+    },
+    "name": "Elizabeth Bennett",
+    "photoUrls": [
+        "https://www.dominguez.net/"
+    ],
+    "tags": [
+        {
+            "id": 72,
+            "name": "sarahsandoval"
+        }
+    ],
+    "status": "available"
+}

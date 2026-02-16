@@ -1,0 +1,18 @@
+{
+    "id": 80,
+    "category": {
+        "id": 67,
+        "name": "cost.html"
+    },
+    "name": "Jimmy Johnson",
+    "photoUrls": [
+        "https://mahoney.com/"
+    ],
+    "tags": [
+        {
+            "id": 39,
+            "name": "lucerokristen"
+        }
+    ],
+    "status": "available"
+}

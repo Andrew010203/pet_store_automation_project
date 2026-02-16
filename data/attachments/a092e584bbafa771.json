@@ -1,0 +1,18 @@
+{
+    "id": 6022,
+    "category": {
+        "id": 24,
+        "name": "example.mov"
+    },
+    "name": "Jeffrey Miller",
+    "photoUrls": [
+        "https://www.martinez-williams.com/"
+    ],
+    "tags": [
+        {
+            "id": 81,
+            "name": "thompsonanne"
+        }
+    ],
+    "status": "available"
+}

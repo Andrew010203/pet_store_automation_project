@@ -1,0 +1,18 @@
+{
+    "id": 69,
+    "category": {
+        "id": 12,
+        "name": "knowledge.tiff"
+    },
+    "name": "James Jacobson",
+    "photoUrls": [
+        "http://harris.com/"
+    ],
+    "tags": [
+        {
+            "id": 4,
+            "name": "acontreras"
+        }
+    ],
+    "status": "available"
+}

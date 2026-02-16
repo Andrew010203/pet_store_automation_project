@@ -1,0 +1,18 @@
+{
+    "id": 43,
+    "category": {
+        "id": 79,
+        "name": "chance.jpeg"
+    },
+    "name": "Corey Smith",
+    "photoUrls": [
+        "https://baker.net/"
+    ],
+    "tags": [
+        {
+            "id": 43,
+            "name": "pgreene"
+        }
+    ],
+    "status": "available"
+}

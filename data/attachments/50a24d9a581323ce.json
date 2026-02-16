@@ -1,0 +1,18 @@
+{
+    "id": 65,
+    "category": {
+        "id": 19,
+        "name": "despite.bmp"
+    },
+    "name": "Randy Roberts",
+    "photoUrls": [
+        "https://www.moore-cruz.com/"
+    ],
+    "tags": [
+        {
+            "id": 88,
+            "name": "rrobbins"
+        }
+    ],
+    "status": "available"
+}

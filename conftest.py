@@ -120,7 +120,7 @@ def pytest_terminal_summary(terminalreporter):
            json={
                "chat_id": CHAT_ID,
                "text": message,
-               "parse_mode": "Markdown",
+               "parse_mode": "HTML",
                "disable_web_page_preview": True
            }
        )

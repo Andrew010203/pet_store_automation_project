@@ -1,25 +1,9 @@
-import requests  # библиотека для HTTP-запросов
-import pytest     # фреймворк для тестирования
-import datetime   # модуль для работы с датой и временем
+import requests
+import pytest
+import datetime
 import os
 from dotenv import load_dotenv
 
-# load_dotenv()
-# # Токен бота Telegram для отправки сообщений
-# TOKEN = os.getenv("TOKEN")
-# # Идентификатор чата в Telegram, куда отправлять результаты
-# CHAT_ID = os.getenv("CHAT_ID")
-# Берем имя репозитория и номер сборки из переменных окружения GitHub
-# repo_name = os.getenv("GITHUB_REPOSITORY")  # формат "user/repo"
-# run_id = os.getenv("GITHUB_RUN_ID")
-#
-# if repo_name:
-#     user, repo = repo_name.split("/")
-#     # Ссылка на конкретный отчет (если настроено сохранение по run_id)
-#     GITHUB_PAGE_URL = f"https://{user}.github.io/{repo}/{run_id}/"
-# else:
-# # Базовый URL для ссылки на файлы репозитория на Github
-#     GITHUB_PAGE_URL = "https://andrew010203.github.io/pet_store_automation_project/"
 def pytest_terminal_summary(terminalreporter):
    """
    Хук pytest, выполняющийся после завершения всех тестов.
@@ -32,27 +16,8 @@ def pytest_terminal_summary(terminalreporter):
    CHAT_ID = os.getenv("CHAT_ID")
    repo_name = os.getenv("GITHUB_REPOSITORY")  # формат "user/repo"
    run_id = os.getenv("GITHUB_RUN_ID")
-
-   # if repo_name:
-   #     user, repo = repo_name.split("/")
-   #     # Ссылка на конкретный отчет (если настроено сохранение по run_id)
-   #     GITHUB_PAGE_URL = f"https://{user}.github.io/{repo}/{run_id}/"
-   # else:
-   #     # Базовый URL для ссылки на файлы репозитория на Github
-   #     GITHUB_PAGE_URL = "https://andrew010203.github.io/pet_store_automation_project/"
-
    # Проверяем, реально ли мы в облаке GitHub Actions
    is_github_actions = os.getenv("GITHUB_ACTIONS") == "true"
-
-   # if is_github_actions:
-   #     repo_name = os.getenv("GITHUB_REPOSITORY")
-   #     run_id = os.getenv("GITHUB_RUN_ID")
-   #     user, repo = repo_name.split("/")
-   #     # В CI используем динамическую ссылку
-   #     GITHUB_PAGE_URL = f"https://{user}.github.io/{repo}/{run_id}/"
-   # else:
-   #     # ЛОКАЛЬНО всегда используем эту жесткую ссылку
-   #     GITHUB_PAGE_URL = "https://andrew010203.github.io/pet_store_automation_project/"
    if is_github_actions:
        repo_name = os.getenv("GITHUB_REPOSITORY")
        # Переводим в нижний регистр, чтобы ссылка не билась

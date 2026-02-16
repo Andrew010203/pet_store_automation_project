@@ -29,16 +29,6 @@ jobs:
             -e GITHUB_REPOSITORY="${{ github.repository }}" \
             -e GITHUB_RUN_ID="${{ github.run_id }}" \
             petstore
-#        env:
-#          # Секреты из настроек репозитория
-#          TOKEN: ${{ secrets.TOKEN }}
-#          CHAT_ID: ${{ secrets.CHAT_ID }}
-#          # Системные переменные GitHub (передаем их в Docker)
-#          GITHUB_ACTIONS: "true"
-#          GITHUB_REPOSITORY: ${{ github.repository }}
-#          GITHUB_RUN_ID: ${{ github.run_id }}
-#
-#        run: docker compose up petstore
 
       - name: Fix permissions
         if: always()
@@ -53,10 +43,12 @@ jobs:
           fi
 
       - name: Generate Allure-report
+        if: always()  # Запускать, даже если тесты упали
         # Контейнер возьмет данные из report/ и создаст allure-report/
         run: docker compose up report
 
       - name: Deploy to Github Pages
+        if: always()  # Деплоить отчет всегда
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}

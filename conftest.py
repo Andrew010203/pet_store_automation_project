@@ -94,6 +94,7 @@ def pytest_terminal_summary(terminalreporter):
        )
    # Добавляем ссылку на Github
    message += f"[Подробнее на Github Pages]({GITHUB_PAGE_URL})"
+   # Добавляем конструкцию для отладки
    print(f"\n--- DEBUG INFO ---")
    print(f"TOKEN exists: {bool(TOKEN)}")
    print(f"CHAT_ID exists: {bool(CHAT_ID)}")

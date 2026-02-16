@@ -21,15 +21,24 @@ jobs:
 
 
       - name: Run API Tests
-        env:
-          # Секреты из настроек репозитория
-          TOKEN: ${{ secrets.TOKEN }}
-          CHAT_ID: ${{ secrets.CHAT_ID }}
-          # Системные переменные GitHub (передаем их в Docker)
-          GITHUB_ACTIONS: "true"
-          GITHUB_REPOSITORY: ${{ github.repository }}
-          GITHUB_RUN_ID: ${{ github.run_id }}
-        run: docker compose up petstore
+        run: |
+          docker compose run --rm \
+            -e TOKEN="${{ secrets.TOKEN }}" \
+            -e CHAT_ID="${{ secrets.CHAT_ID }}" \
+            -e GITHUB_ACTIONS="true" \
+            -e GITHUB_REPOSITORY="${{ github.repository }}" \
+            -e GITHUB_RUN_ID="${{ github.run_id }}" \
+            petstore
+#        env:
+#          # Секреты из настроек репозитория
+#          TOKEN: ${{ secrets.TOKEN }}
+#          CHAT_ID: ${{ secrets.CHAT_ID }}
+#          # Системные переменные GitHub (передаем их в Docker)
+#          GITHUB_ACTIONS: "true"
+#          GITHUB_REPOSITORY: ${{ github.repository }}
+#          GITHUB_RUN_ID: ${{ github.run_id }}
+#
+#        run: docker compose up petstore
 
       - name: Fix permissions
         if: always()

@@ -1,0 +1,18 @@
+{
+    "id": 26,
+    "category": {
+        "id": 72,
+        "name": "bill.css"
+    },
+    "name": "Rebecca Sanders",
+    "photoUrls": [
+        "https://sutton-strickland.com/"
+    ],
+    "tags": [
+        {
+            "id": 96,
+            "name": "wallacesamantha"
+        }
+    ],
+    "status": "available"
+}

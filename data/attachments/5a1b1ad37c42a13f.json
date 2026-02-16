@@ -1,0 +1,18 @@
+{
+    "id": 57,
+    "category": {
+        "id": 45,
+        "name": "professor.gif"
+    },
+    "name": "Robert Wilson",
+    "photoUrls": [
+        "https://kemp.com/"
+    ],
+    "tags": [
+        {
+            "id": 31,
+            "name": "kingjorge"
+        }
+    ],
+    "status": "available"
+}

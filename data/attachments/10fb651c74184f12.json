@@ -1,0 +1,18 @@
+{
+    "id": 7489,
+    "category": {
+        "id": 13,
+        "name": "bed.tiff"
+    },
+    "name": "Roger Hernandez",
+    "photoUrls": [
+        "http://saunders.com/"
+    ],
+    "tags": [
+        {
+            "id": 36,
+            "name": "wthomas"
+        }
+    ],
+    "status": "available"
+}

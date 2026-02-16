@@ -1,0 +1,18 @@
+{
+    "id": 43,
+    "category": {
+        "id": 6,
+        "name": "mouth.bmp"
+    },
+    "name": "Patricia Bennett",
+    "photoUrls": [
+        "https://www.bush-johnson.org/"
+    ],
+    "tags": [
+        {
+            "id": 10,
+            "name": "alexiscasey"
+        }
+    ],
+    "status": "available"
+}

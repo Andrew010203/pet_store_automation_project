@@ -9,8 +9,17 @@ load_dotenv()
 TOKEN = os.getenv("TOKEN")
 # Идентификатор чата в Telegram, куда отправлять результаты
 CHAT_ID = os.getenv("CHAT_ID")
+# Берем имя репозитория и номер сборки из переменных окружения GitHub
+repo_name = os.getenv("GITHUB_REPOSITORY") # формат "user/repo"
+run_id = os.getenv("GITHUB_RUN_ID")
+
+if repo_name:
+    user, repo = repo_name.split("/")
+    # Ссылка на конкретный отчет (если настроено сохранение по run_id)
+    GITHUB_PAGE_URL = f"https://{user}.github.io/{repo}/{run_id}/"
+else:
 # Базовый URL для ссылки на файлы репозитория на Github
-GITHUB_PAGE_URL = "https://andrew010203.github.io/pet_store_automation_project/"
+    GITHUB_PAGE_URL = "https://andrew010203.github.io/pet_store_automation_project/"
 def pytest_terminal_summary(terminalreporter):
    """
    Хук pytest, выполняющийся после завершения всех тестов.

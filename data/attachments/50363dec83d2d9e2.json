@@ -1,0 +1,18 @@
+{
+    "id": 6066,
+    "category": {
+        "id": 38,
+        "name": "quite.mov"
+    },
+    "name": "Michael Williams",
+    "photoUrls": [
+        "https://manning.com/"
+    ],
+    "tags": [
+        {
+            "id": 53,
+            "name": "annettemay"
+        }
+    ],
+    "status": "available"
+}

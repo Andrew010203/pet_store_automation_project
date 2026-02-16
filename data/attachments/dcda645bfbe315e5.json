@@ -1,0 +1,18 @@
+{
+    "id": 14,
+    "category": {
+        "id": 15,
+        "name": "when.bmp"
+    },
+    "name": "Madison Murphy",
+    "photoUrls": [
+        "http://www.robertson-anderson.biz/"
+    ],
+    "tags": [
+        {
+            "id": 48,
+            "name": "steeleconnie"
+        }
+    ],
+    "status": "available"
+}

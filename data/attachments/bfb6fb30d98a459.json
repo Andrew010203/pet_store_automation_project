@@ -1,0 +1,18 @@
+{
+    "id": 77,
+    "category": {
+        "id": 93,
+        "name": "statement.key"
+    },
+    "name": "John Hall",
+    "photoUrls": [
+        "http://www.castaneda-smith.com/"
+    ],
+    "tags": [
+        {
+            "id": 91,
+            "name": "alexanderjackson"
+        }
+    ],
+    "status": "available"
+}

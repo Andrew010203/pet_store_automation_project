@@ -1,0 +1,18 @@
+{
+    "id": 49,
+    "category": {
+        "id": 71,
+        "name": "sing.css"
+    },
+    "name": "Luke Rodriguez",
+    "photoUrls": [
+        "https://walker.org/"
+    ],
+    "tags": [
+        {
+            "id": 73,
+            "name": "lance80"
+        }
+    ],
+    "status": "available"
+}

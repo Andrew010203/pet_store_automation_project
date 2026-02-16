@@ -1,0 +1,18 @@
+{
+    "id": 56,
+    "category": {
+        "id": 45,
+        "name": "space.mp3"
+    },
+    "name": "Angela Moore",
+    "photoUrls": [
+        "https://www.potter.com/"
+    ],
+    "tags": [
+        {
+            "id": 84,
+            "name": "petersjames"
+        }
+    ],
+    "status": "available"
+}

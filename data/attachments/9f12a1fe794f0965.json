@@ -1,0 +1,18 @@
+{
+    "id": 77,
+    "category": {
+        "id": 40,
+        "name": "kitchen.jpeg"
+    },
+    "name": "Angela Brown",
+    "photoUrls": [
+        "http://bennett-trevino.com/"
+    ],
+    "tags": [
+        {
+            "id": 47,
+            "name": "greenecharles"
+        }
+    ],
+    "status": "available"
+}

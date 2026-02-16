@@ -1,0 +1,18 @@
+{
+    "id": 1558,
+    "category": {
+        "id": 85,
+        "name": "price.json"
+    },
+    "name": "Jason Thompson",
+    "photoUrls": [
+        "https://www.riley.biz/"
+    ],
+    "tags": [
+        {
+            "id": 69,
+            "name": "ibond"
+        }
+    ],
+    "status": "available"
+}

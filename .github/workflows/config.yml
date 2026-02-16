@@ -23,6 +23,7 @@ jobs:
       - name: Run API Tests
         run: |
           docker compose run --rm \
+            -e PYTEST_ADDOPTS="--color=yes" \
             -e TOKEN="${{ secrets.TOKEN }}" \
             -e CHAT_ID="${{ secrets.CHAT_ID }}" \
             -e GITHUB_ACTIONS="true" \

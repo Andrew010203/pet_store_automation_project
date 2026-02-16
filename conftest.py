@@ -5,27 +5,55 @@ import os
 from dotenv import load_dotenv
 
 # load_dotenv()
-# Токен бота Telegram для отправки сообщений
-TOKEN = os.getenv("TOKEN")
-# Идентификатор чата в Telegram, куда отправлять результаты
-CHAT_ID = os.getenv("CHAT_ID")
+# # Токен бота Telegram для отправки сообщений
+# TOKEN = os.getenv("TOKEN")
+# # Идентификатор чата в Telegram, куда отправлять результаты
+# CHAT_ID = os.getenv("CHAT_ID")
 # Берем имя репозитория и номер сборки из переменных окружения GitHub
-repo_name = os.getenv("GITHUB_REPOSITORY") # формат "user/repo"
-run_id = os.getenv("GITHUB_RUN_ID")
-
-if repo_name:
-    user, repo = repo_name.split("/")
-    # Ссылка на конкретный отчет (если настроено сохранение по run_id)
-    GITHUB_PAGE_URL = f"https://{user}.github.io/{repo}/{run_id}/"
-else:
-# Базовый URL для ссылки на файлы репозитория на Github
-    GITHUB_PAGE_URL = "https://andrew010203.github.io/pet_store_automation_project/"
+# repo_name = os.getenv("GITHUB_REPOSITORY")  # формат "user/repo"
+# run_id = os.getenv("GITHUB_RUN_ID")
+#
+# if repo_name:
+#     user, repo = repo_name.split("/")
+#     # Ссылка на конкретный отчет (если настроено сохранение по run_id)
+#     GITHUB_PAGE_URL = f"https://{user}.github.io/{repo}/{run_id}/"
+# else:
+# # Базовый URL для ссылки на файлы репозитория на Github
+#     GITHUB_PAGE_URL = "https://andrew010203.github.io/pet_store_automation_project/"
 def pytest_terminal_summary(terminalreporter):
    """
    Хук pytest, выполняющийся после завершения всех тестов.
    Собирает статистику по результатам и отправляет сводку в Telegram.
    """
    load_dotenv()
+   # Токен бота Telegram для отправки сообщений
+   TOKEN = os.getenv("TOKEN")
+   # Идентификатор чата в Telegram, куда отправлять результаты
+   CHAT_ID = os.getenv("CHAT_ID")
+   repo_name = os.getenv("GITHUB_REPOSITORY")  # формат "user/repo"
+   run_id = os.getenv("GITHUB_RUN_ID")
+
+   # if repo_name:
+   #     user, repo = repo_name.split("/")
+   #     # Ссылка на конкретный отчет (если настроено сохранение по run_id)
+   #     GITHUB_PAGE_URL = f"https://{user}.github.io/{repo}/{run_id}/"
+   # else:
+   #     # Базовый URL для ссылки на файлы репозитория на Github
+   #     GITHUB_PAGE_URL = "https://andrew010203.github.io/pet_store_automation_project/"
+
+   # Проверяем, реально ли мы в облаке GitHub Actions
+   is_github_actions = os.getenv("GITHUB_ACTIONS") == "true"
+
+   if is_github_actions:
+       repo_name = os.getenv("GITHUB_REPOSITORY")
+       run_id = os.getenv("GITHUB_RUN_ID")
+       user, repo = repo_name.split("/")
+       # В CI используем динамическую ссылку
+       GITHUB_PAGE_URL = f"https://{user}.github.io/{repo}/{run_id}/"
+   else:
+       # ЛОКАЛЬНО всегда используем эту жесткую ссылку
+       GITHUB_PAGE_URL = "https://andrew010203.github.io/pet_store_automation_project/"
+
    config = terminalreporter.config
    if hasattr(config, "workerinput"):
        return
@@ -66,6 +94,12 @@ def pytest_terminal_summary(terminalreporter):
        )
    # Добавляем ссылку на Github
    message += f"[Подробнее на Github Pages]({GITHUB_PAGE_URL})"
+   print(f"\n--- DEBUG INFO ---")
+   print(f"TOKEN exists: {bool(TOKEN)}")
+   print(f"CHAT_ID exists: {bool(CHAT_ID)}")
+   print(f"GITHUB_ACTIONS: {os.getenv('GITHUB_ACTIONS')}")
+   print(f"URL: {GITHUB_PAGE_URL}")
+   print(f"------------------\n")
    try:
        # Отправляем POST-запрос к Telegram Bot API
        response = requests.post(

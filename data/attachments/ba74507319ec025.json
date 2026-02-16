@@ -1,0 +1,18 @@
+{
+    "id": 16,
+    "category": {
+        "id": 18,
+        "name": "concern.avi"
+    },
+    "name": "Cheryl Jones",
+    "photoUrls": [
+        "https://www.burton-gutierrez.org/"
+    ],
+    "tags": [
+        {
+            "id": 45,
+            "name": "felicia24"
+        }
+    ],
+    "status": "available"
+}

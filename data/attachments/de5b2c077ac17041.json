@@ -1,0 +1,18 @@
+{
+    "id": 50,
+    "category": {
+        "id": 21,
+        "name": "official.json"
+    },
+    "name": "Mr. Russell Baker DDS",
+    "photoUrls": [
+        "http://www.cox-johnson.org/"
+    ],
+    "tags": [
+        {
+            "id": 42,
+            "name": "erica15"
+        }
+    ],
+    "status": "available"
+}

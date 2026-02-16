@@ -1,0 +1,18 @@
+{
+    "id": 90,
+    "category": {
+        "id": 92,
+        "name": "region.mp3"
+    },
+    "name": "Jessica Martin",
+    "photoUrls": [
+        "https://simpson.biz/"
+    ],
+    "tags": [
+        {
+            "id": 74,
+            "name": "kelly09"
+        }
+    ],
+    "status": "available"
+}

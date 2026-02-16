@@ -1,0 +1,18 @@
+{
+    "id": 93,
+    "category": {
+        "id": 97,
+        "name": "man.ppt"
+    },
+    "name": "Melissa Perez",
+    "photoUrls": [
+        "https://brown-adams.biz/"
+    ],
+    "tags": [
+        {
+            "id": 71,
+            "name": "parsonsalison"
+        }
+    ],
+    "status": "available"
+}

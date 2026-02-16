@@ -1,0 +1,18 @@
+{
+    "id": 29,
+    "category": {
+        "id": 80,
+        "name": "culture.html"
+    },
+    "name": "Christopher Thompson",
+    "photoUrls": [
+        "https://williams.com/"
+    ],
+    "tags": [
+        {
+            "id": 81,
+            "name": "deannarivera"
+        }
+    ],
+    "status": "available"
+}

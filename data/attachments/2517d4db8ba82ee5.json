@@ -1,0 +1,18 @@
+{
+    "id": 4753,
+    "category": {
+        "id": 12,
+        "name": "kid.csv"
+    },
+    "name": "Brandon Powers",
+    "photoUrls": [
+        "https://www.robles-cervantes.com/"
+    ],
+    "tags": [
+        {
+            "id": 91,
+            "name": "jmitchell"
+        }
+    ],
+    "status": "available"
+}

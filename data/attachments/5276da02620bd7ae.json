@@ -1,0 +1,18 @@
+{
+    "id": 7,
+    "category": {
+        "id": 4,
+        "name": "road.wav"
+    },
+    "name": "Joseph Mann",
+    "photoUrls": [
+        "https://rogers.com/"
+    ],
+    "tags": [
+        {
+            "id": 26,
+            "name": "pamela25"
+        }
+    ],
+    "status": "available"
+}

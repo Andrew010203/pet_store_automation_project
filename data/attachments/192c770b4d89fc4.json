@@ -1,0 +1,18 @@
+{
+    "id": 20,
+    "category": {
+        "id": 12,
+        "name": "understand.wav"
+    },
+    "name": "Michael Cisneros",
+    "photoUrls": [
+        "https://scott-cruz.org/"
+    ],
+    "tags": [
+        {
+            "id": 28,
+            "name": "john29"
+        }
+    ],
+    "status": "available"
+}

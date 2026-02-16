@@ -1,0 +1,612 @@
+[
+    {
+        "id": 111111,
+        "category": {
+            "id": 11111,
+            "name": "string"
+        },
+        "name": "puppy",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 111,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 5115,
+        "category": {
+            "id": 762,
+            "name": "24/7"
+        },
+        "name": "Jenifer5115",
+        "photoUrls": [
+            "http://placeimg.com/640/480"
+        ],
+        "tags": [
+            {
+                "id": 838,
+                "name": "withdrawal"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 1771192514,
+        "category": {
+            "id": 1771192514,
+            "name": "dog"
+        },
+        "name": "hello kity",
+        "photoUrls": [
+            "http://foo.bar.com/1",
+            "http://foo.bar.com/2"
+        ],
+        "tags": [
+            {
+                "id": 1771192514,
+                "name": "swagger-codegen-python-pet-tag"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 90369791,
+        "category": {
+            "id": -28594492,
+            "name": "ad"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "nulla ipsum dolor",
+            "cillum"
+        ],
+        "tags": [
+            {
+                "id": 16964237,
+                "name": "velit aliquip occaecat voluptate"
+            },
+            {
+                "id": -32143651,
+                "name": "sed nulla sint"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 62348053,
+        "category": {
+            "id": 38125450,
+            "name": "in ipsum eu exercitation"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "reprehenderit velit enim voluptate",
+            "sit aliquip"
+        ],
+        "tags": [
+            {
+                "id": -75638954,
+                "name": "Ut"
+            },
+            {
+                "id": -32534044,
+                "name": "occaecat qui commodo"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 1711982,
+        "category": {
+            "id": 52551857,
+            "name": "non Lorem tempor"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "veniam",
+            "reprehenderit commodo proident occaecat"
+        ],
+        "tags": [
+            {
+                "id": -12689894,
+                "name": "veniam mollit"
+            },
+            {
+                "id": -27514803,
+                "name": "sed ullamco ut"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 40010473,
+        "category": {
+            "id": -13430874,
+            "name": "in fugiat ipsum"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "proident sed ut",
+            "aute laboris elit occaecat aliquip"
+        ],
+        "tags": [
+            {
+                "id": -64712721,
+                "name": "ad"
+            },
+            {
+                "id": 40504054,
+                "name": "in"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 24572652,
+        "category": {
+            "id": 70314021,
+            "name": "adipisicing dolore"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "magna dolor Ut in",
+            "in eiusm"
+        ],
+        "tags": [
+            {
+                "id": 85643839,
+                "name": "aliquip sit dolor"
+            },
+            {
+                "id": -89364963,
+                "name": "elit id reprehenderit eiusmod exercitation"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 38541659,
+        "category": {
+            "id": -70999792,
+            "name": "dolore aliqua irure"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "cupidatat quis",
+            "ipsum deserunt"
+        ],
+        "tags": [
+            {
+                "id": 96985450,
+                "name": "proident adipisicing officia"
+            },
+            {
+                "id": -17203769,
+                "name": "sunt reprehenderit"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 80664,
+        "category": {
+            "id": 1,
+            "name": "Dogs"
+        },
+        "name": "Pet with sold status",
+        "photoUrls": [
+            "https://example.com/photo1.jpg",
+            "https://example.com/photo2.jpg"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "friendly"
+            },
+            {
+                "id": 2,
+                "name": "trained"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 50,
+        "category": {
+            "id": 2,
+            "name": "dog_category50"
+        },
+        "name": "dognamesold",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 51,
+                "name": "dognamesold"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 12050373382522,
+        "category": {
+            "id": 5,
+            "name": "Ave"
+        },
+        "name": "Chatot",
+        "photoUrls": [
+            "Http.examplephoto.jpg"
+        ],
+        "tags": [
+            {
+                "id": 5,
+                "name": "baby"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 9223372036854287,
+        "category": {
+            "id": -13727801,
+            "name": "fishs"
+        },
+        "name": "nemar",
+        "photoUrls": [
+            "est irure ad",
+            "https://icdn.lenta.ru/images/2017/09/01/17/20170901174458404/detail_c21173bdfcc5e339555293d696128592.jpg"
+        ],
+        "tags": [
+            {
+                "id": -3288814,
+                "name": "in officia sit sunt"
+            },
+            {
+                "id": -53146769,
+                "name": "voluptate cillum"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 354,
+        "name": "prueba perro jazmin editado con form data ",
+        "photoUrls": [],
+        "tags": [],
+        "status": "sold"
+    },
+    {
+        "id": 19467,
+        "name": "\u898b\u97ff\u89c1\u54cd\u4eee\u4ecf!$%&()*+,-\u0184\u0185\u0186\u1e1e\u1e1f\u1e40\u02b6\u02b7\u02b8\u0103\u0104\u0105",
+        "photoUrls": [
+            "https://petstore3.swagger.io/resources/photos/623389095.jpg"
+        ],
+        "tags": [],
+        "status": "sold"
+    },
+    {
+        "id": 23688827,
+        "category": {
+            "id": 38199557,
+            "name": "officia in"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "culpa aliqua do Ut",
+            "pariatur non qui"
+        ],
+        "tags": [
+            {
+                "id": -59409203,
+                "name": "irure id dolor D"
+            },
+            {
+                "id": -8983193,
+                "name": "amet Duis"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 3500,
+        "category": {
+            "id": 6000,
+            "name": "string"
+        },
+        "name": "Jocky",
+        "photoUrls": [
+            "string",
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 3000,
+                "name": "string"
+            },
+            {
+                "id": 5000,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 1771204278961,
+        "name": "NewDog",
+        "photoUrls": [],
+        "status": "sold"
+    },
+    {
+        "id": 999999999999,
+        "name": "GhostDog",
+        "photoUrls": [],
+        "status": "sold"
+    },
+    {
+        "id": 1771204286149,
+        "photoUrls": [],
+        "status": "sold"
+    },
+    {
+        "id": 19188276,
+        "category": {
+            "id": -29245128,
+            "name": "incididunt"
+        },
+        "name": "executing_from_test",
+        "photoUrls": [
+            "dolore Excepteur est",
+            "consequat in labore"
+        ],
+        "tags": [
+            {
+                "id": -55902183,
+                "name": "Lorem laboris nulla"
+            },
+            {
+                "id": 67424482,
+                "name": "incididunt ipsum eiusmod"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 17,
+        "name": "Special_char_owner_!@#$^&()`.testing",
+        "photoUrls": [
+            "https://petstore3.swagger.io/resources/photos/623389095.jpg"
+        ],
+        "tags": [],
+        "status": "sold"
+    },
+    {
+        "id": 8365,
+        "name": "\u00d8^",
+        "photoUrls": [
+            "\udb9f\udec8\"",
+            "\u00f1.\udb75\udd4a\ud879\udfe6\uda5d\udc4b\udb01\udca5\u00d2\u008cE",
+            "\u00ca\uda82\udf86"
+        ],
+        "tags": [],
+        "status": "sold"
+    },
+    {
+        "id": 114,
+        "name": "\u00dd\udbcb\ude1d\u0092\u00ff",
+        "photoUrls": [
+            "Y\u00f9p\u00fbD",
+            "G\u00c5\u00f0",
+            "",
+            "",
+            "mP",
+            "",
+            "\u00df%",
+            "\u00f5-"
+        ],
+        "tags": [],
+        "status": "sold"
+    },
+    {
+        "id": 21858,
+        "name": "\u00fa",
+        "photoUrls": [],
+        "tags": [],
+        "status": "sold"
+    },
+    {
+        "id": 1273483946,
+        "name": "\u00cf",
+        "photoUrls": [
+            "",
+            "\ud812\udd8dF\u00c9",
+            "\u00bewl\u00f5",
+            "-\ud976\udf7e,\ud95c\udfce#h`i\udb17\ude60\udbcd\uded7\uda68\udf4d\udb83\ude61n",
+            "\u00fc",
+            "",
+            "\u00b2e\u00cf\u00a3\udace\udfa2\u00a9\u00a1\u0084\u00a3",
+            "\u0083i\uda63\uddd8",
+            "\u009b\u00e5\u00cfkc\ud88f\udc1b\u00a4",
+            "\ud9b4\ude15\ud98f\ude1fcb\uda39\udd73\u00c3\u00caYZ\u0092",
+            "<"
+        ],
+        "tags": [],
+        "status": "sold"
+    },
+    {
+        "id": 11,
+        "category": {
+            "id": 0,
+            "name": "Hansen"
+        },
+        "name": "Tamara",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 9999991,
+        "name": "DeboraDogUpdated",
+        "photoUrls": [],
+        "tags": [],
+        "status": "sold"
+    },
+    {
+        "id": 9,
+        "category": {
+            "id": 0,
+            "name": "cats"
+        },
+        "name": "King Kong",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 549790,
+        "category": {
+            "id": 10,
+            "name": "Small Pets"
+        },
+        "name": "Joseph",
+        "photoUrls": [
+            "https://dummyimage.com/883x554"
+        ],
+        "tags": [
+            {
+                "id": 42,
+                "name": "difficult"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 521516,
+        "category": {
+            "id": 6,
+            "name": "Fish"
+        },
+        "name": "Joshua",
+        "photoUrls": [
+            "https://picsum.photos/496/755"
+        ],
+        "tags": [
+            {
+                "id": 4,
+                "name": "teach"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 310914,
+        "category": {
+            "id": 1,
+            "name": "Dogs"
+        },
+        "name": "Updated Buddy",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "friendly"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 28,
+        "category": {
+            "id": 526,
+            "name": "Duis sit sunt adipisicing"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "qui enim dolore",
+            "cupidatat nisi reprehenderit non"
+        ],
+        "tags": [
+            {
+                "id": 8821,
+                "name": "sit"
+            },
+            {
+                "id": 526,
+                "name": "fugiat consectetur pariatur"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 45,
+        "category": {
+            "id": 140,
+            "name": "sint in d"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "in qui",
+            "dolore nisi ad enim ut"
+        ],
+        "tags": [
+            {
+                "id": 3897,
+                "name": "anim occaecat sed irure"
+            },
+            {
+                "id": 80014622,
+                "name": "ut enim aute officia"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 12,
+        "category": {
+            "id": 0,
+            "name": "dogs"
+        },
+        "name": "Fido",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 777,
+        "category": {
+            "id": 888,
+            "name": "This is my new category"
+        },
+        "name": "This is my new pet",
+        "tags": [],
+        "status": "sold"
+    }
+]

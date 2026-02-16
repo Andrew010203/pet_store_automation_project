@@ -1,0 +1,367 @@
+[
+    {
+        "id": 111,
+        "category": {
+            "id": 2,
+            "name": "dogs"
+        },
+        "name": "Sharik",
+        "photoUrls": [
+            "stepik.org"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "cute"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 53,
+        "category": {
+            "id": 2,
+            "name": "dog_category53"
+        },
+        "name": "dognamesold",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "animalnamechanged"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 731111,
+        "category": {
+            "id": 5992,
+            "name": "fishs"
+        },
+        "name": "Nemotest",
+        "photoUrls": [
+            "string",
+            "https://www.google.com/imgres?q=fish&imgurl=https%3A%2F%2Fcdn.britannica.com%2F14%2F162014-050-45C1FD13%2Fwarm-bloodedness-opah-results-heat-exchange-system-gills.jpg&imgrefurl=https%3A%2F%2Fwww.britannica.com%2Fanimal%2Ffish&docid=YPTjX0r3OE7wEM&tbnid=QTSm8cHUqoGNkM&vet=12ahUKEwioi_-smeOQAxXiywIHHQj8GF8QM3oECBYQAA..i&w=1600&h=1256&hcb=2&ved=2ahUKEwioi_-smeOQAxXiywIHHQj8GF8QM3oECBYQAA"
+        ],
+        "tags": [
+            {
+                "id": 3432,
+                "name": "string"
+            },
+            {
+                "id": 5215,
+                "name": "string"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 2799412,
+        "category": {
+            "id": 19475553,
+            "name": "nostrud cupidatat labore"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "culpa occaecat",
+            "ad incididunt"
+        ],
+        "tags": [
+            {
+                "id": 47291519,
+                "name": "consequat aute pariatur"
+            },
+            {
+                "id": -53726990,
+                "name": "Lorem enim consectetur"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 16222945,
+        "category": {
+            "id": -78746072,
+            "name": "eiusmod"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "pariatur culpa do ex",
+            "cupidatat reprehenderit"
+        ],
+        "tags": [
+            {
+                "id": -20700751,
+                "name": "fugiat sint Excepteur"
+            },
+            {
+                "id": -66098870,
+                "name": "consectetur amet fugiat"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 1771201898645,
+        "name": "Max",
+        "photoUrls": [
+            "http://test.com/photo.jpg"
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 1771201960589,
+        "name": "Max",
+        "photoUrls": [
+            "http://test.com/photo.jpg"
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 1771203468611,
+        "name": "PendingDog",
+        "photoUrls": [],
+        "status": "pending"
+    },
+    {
+        "id": 1771203837787,
+        "name": "PendingDog",
+        "photoUrls": [],
+        "status": "pending"
+    },
+    {
+        "id": 1771203898985,
+        "name": "PendingDog",
+        "photoUrls": [],
+        "status": "pending"
+    },
+    {
+        "id": 1771204268841,
+        "name": "Max",
+        "photoUrls": [
+            "http://test.com/photo.jpg"
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 1771204281468,
+        "name": "StatusDog",
+        "photoUrls": [],
+        "status": "pending"
+    },
+    {
+        "id": 1771204297704,
+        "name": "PendingDog",
+        "photoUrls": [],
+        "status": "pending"
+    },
+    {
+        "id": 235,
+        "category": {
+            "id": 0,
+            "name": "Aldo"
+        },
+        "name": "Dog",
+        "photoUrls": [
+            "www.ornekolacakyadim1.com",
+            "www.ornekolacakyadim2.com"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "Seven"
+            },
+            {
+                "id": 0,
+                "name": "Eight"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 12341231234,
+        "category": {
+            "id": 1234123,
+            "name": "string"
+        },
+        "name": "Newbie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 14774,
+        "name": "\u00afS",
+        "photoUrls": [
+            "",
+            "\u39ef\u00b2\u00fa\u00dfi",
+            "\u00be3",
+            "\u00a63",
+            "",
+            "\t",
+            "\udbef\udef4n",
+            ""
+        ],
+        "tags": [],
+        "status": "pending"
+    },
+    {
+        "id": 824759,
+        "category": {
+            "id": 4,
+            "name": "Cats"
+        },
+        "name": "Kelly_Updated",
+        "photoUrls": [
+            "https://dummyimage.com/575x545"
+        ],
+        "tags": [
+            {
+                "id": 31,
+                "name": "red"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 283558,
+        "category": {
+            "id": 10,
+            "name": "Fish"
+        },
+        "name": "Aaron_Updated",
+        "photoUrls": [
+            "https://dummyimage.com/50x704"
+        ],
+        "tags": [
+            {
+                "id": 84,
+                "name": "anything"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 1004,
+        "category": {
+            "id": 104,
+            "name": "Dog"
+        },
+        "name": "Maggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 1234270,
+        "category": {
+            "id": 24889299,
+            "name": "quis proident"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "moll",
+            "nisi adipisicing reprehenderit id elit"
+        ],
+        "tags": [
+            {
+                "id": -72012743,
+                "name": "aliquip fugiat qui eiusmod"
+            },
+            {
+                "id": -95825064,
+                "name": "ea"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 12345,
+        "category": {
+            "id": 1,
+            "name": "dog"
+        },
+        "name": "snoopie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 1424,
+        "category": {
+            "id": 2272,
+            "name": "Chaim Bailey"
+        },
+        "name": "Sheila",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 1163,
+        "category": {
+            "id": 3128,
+            "name": "Jonas Decker"
+        },
+        "name": "Gemma",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 343434,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Florence",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "pending"
+    }
+]

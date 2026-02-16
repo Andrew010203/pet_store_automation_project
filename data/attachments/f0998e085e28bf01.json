@@ -1,0 +1,18 @@
+{
+    "id": 85,
+    "category": {
+        "id": 100,
+        "name": "me.js"
+    },
+    "name": "Megan Davis",
+    "photoUrls": [
+        "https://www.reed.com/"
+    ],
+    "tags": [
+        {
+            "id": 11,
+            "name": "calderonemily"
+        }
+    ],
+    "status": "available"
+}

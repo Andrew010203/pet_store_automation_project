@@ -1,0 +1,18 @@
+{
+    "id": 71,
+    "category": {
+        "id": 12,
+        "name": "product.flac"
+    },
+    "name": "Mr. Jose Lyons",
+    "photoUrls": [
+        "http://mcdonald.com/"
+    ],
+    "tags": [
+        {
+            "id": 87,
+            "name": "bradshawkimberly"
+        }
+    ],
+    "status": "available"
+}

@@ -1,0 +1,18 @@
+{
+    "id": 8,
+    "category": {
+        "id": 63,
+        "name": "property.wav"
+    },
+    "name": "Alan Johnson",
+    "photoUrls": [
+        "https://waller.biz/"
+    ],
+    "tags": [
+        {
+            "id": 92,
+            "name": "uperez"
+        }
+    ],
+    "status": "available"
+}

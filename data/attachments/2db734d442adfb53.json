@@ -1,0 +1,18 @@
+{
+    "id": 86,
+    "category": {
+        "id": 2,
+        "name": "economy.flac"
+    },
+    "name": "Robert Alexander",
+    "photoUrls": [
+        "http://hunt.com/"
+    ],
+    "tags": [
+        {
+            "id": 88,
+            "name": "angelareynolds"
+        }
+    ],
+    "status": "available"
+}

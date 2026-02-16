@@ -1,0 +1,18 @@
+{
+    "id": 74,
+    "category": {
+        "id": 59,
+        "name": "population.txt"
+    },
+    "name": "Jonathan Parker",
+    "photoUrls": [
+        "https://castillo.com/"
+    ],
+    "tags": [
+        {
+            "id": 52,
+            "name": "carlsonkelsey"
+        }
+    ],
+    "status": "available"
+}

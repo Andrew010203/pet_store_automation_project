@@ -1,0 +1,18 @@
+{
+    "id": 46,
+    "category": {
+        "id": 15,
+        "name": "many.jpg"
+    },
+    "name": "Amy Bailey MD",
+    "photoUrls": [
+        "https://miller.com/"
+    ],
+    "tags": [
+        {
+            "id": 42,
+            "name": "sullivananita"
+        }
+    ],
+    "status": "available"
+}

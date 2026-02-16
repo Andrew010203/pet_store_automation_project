@@ -1,0 +1,18 @@
+{
+    "id": 6,
+    "category": {
+        "id": 10,
+        "name": "evening.bmp"
+    },
+    "name": "Christine Gibbs",
+    "photoUrls": [
+        "https://miller.com/"
+    ],
+    "tags": [
+        {
+            "id": 60,
+            "name": "michelle34"
+        }
+    ],
+    "status": "available"
+}

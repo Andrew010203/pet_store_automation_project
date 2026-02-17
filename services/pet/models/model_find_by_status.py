@@ -13,6 +13,6 @@ class PetResponseFindByStatus(BaseModel):
     id: int
     category: Optional[Category] = None
     name: Optional[str] = None
-    photoUrls: list[str] = Field(default=[])
-    tags: list[Tag] = Field(default=[])
+    photoUrls: list[Optional[str]] = None
+    tags: list[Optional[Tag]] = None
     status: str

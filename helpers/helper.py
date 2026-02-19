@@ -4,12 +4,42 @@ import allure
 from pydantic import BaseModel
 
 class Helper:
+    # def attach_response(self, response):
+    #     perfect_response = json.dumps(response, indent=4)
+    #     allure.attach(
+    #         body=perfect_response,
+    #         name="API Response",
+    #         attachment_type=allure.attachment_type.JSON
+    #     )
     def attach_response(self, response):
-        perfect_response = json.dumps(response, indent=4)
+        """
+        Универсальный метод для прикрепления ответа к Allure-отчету.
+        Принимает как объект response, так и dict/list.
+        """
+        # Если передали объект response целиком
+        if isinstance(response, requests.Response):
+            try:
+                # Пытаемся взять JSON
+                data = response.json()
+                name = "API Response (JSON)"
+                attachment_type = allure.attachment_type.JSON
+                content = json.dumps(data, indent=4, ensure_ascii=False)
+            except Exception:
+                # Если не JSON, берем как текст
+                data = response.text
+                name = "API Response (Text/HTML)"
+                attachment_type = allure.attachment_type.TEXT
+                content = data
+        else:
+            # Если передали уже готовый словарь или список
+            name = "API Response Data"
+            attachment_type = allure.attachment_type.JSON
+            content = json.dumps(response, indent=4, ensure_ascii=False)
+
         allure.attach(
-            body=perfect_response,
-            name="API Response",
-            attachment_type=allure.attachment_type.JSON
+            body=content,
+            name=name,
+            attachment_type=attachment_type
         )
 
     def validate_response(self,

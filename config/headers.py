@@ -12,3 +12,8 @@ class Headers:
         "api_key": "special-key",
         # 'Content-Type': 'multipart/form-data'
     }
+
+    store_header = {
+        'accept': 'application/json',
+        'Content-Type': 'application/json'
+    }

@@ -1,0 +1,18 @@
+{
+    "id": 82,
+    "category": {
+        "id": 54,
+        "name": "new.numbers"
+    },
+    "name": "Joanna Hill",
+    "photoUrls": [
+        "https://burke-miller.biz/"
+    ],
+    "tags": [
+        {
+            "id": 38,
+            "name": "jenkinsandrew"
+        }
+    ],
+    "status": "available"
+}

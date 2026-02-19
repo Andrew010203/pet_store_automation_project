@@ -1,0 +1,182 @@
+[
+    {
+        "id": 17031686272,
+        "name": "NyttNamn",
+        "photoUrls": [],
+        "tags": [],
+        "status": "sold"
+    },
+    {
+        "id": 60727195705,
+        "name": "NyttNamn",
+        "photoUrls": [],
+        "tags": [],
+        "status": "sold"
+    },
+    {
+        "id": 66984867616,
+        "name": "NyttNamn",
+        "photoUrls": [],
+        "tags": [],
+        "status": "sold"
+    },
+    {
+        "id": 595,
+        "category": {
+            "id": 1,
+            "name": "Dogs"
+        },
+        "name": "Rex_338",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 9,
+        "category": {
+            "id": 0,
+            "name": "cats"
+        },
+        "name": "King Kong",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 13,
+        "category": {
+            "id": 0,
+            "name": "cats"
+        },
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 3283053,
+        "category": {
+            "id": 72572138
+        },
+        "name": "doggie",
+        "photoUrls": [],
+        "tags": [
+            {
+                "id": 71253972,
+                "name": "sunt in Excepteur"
+            },
+            {
+                "id": 15118477
+            },
+            {
+                "id": 86592942,
+                "name": "reprehenderit occaecat mollit pariatur"
+            },
+            {
+                "id": 5661261,
+                "name": "esse occaecat commodo laboris"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 842,
+        "category": {
+            "id": 448,
+            "name": "firewall"
+        },
+        "name": "white",
+        "photoUrls": [
+            "https://joany.net",
+            "http://julie.org",
+            "http://ashlynn.org"
+        ],
+        "tags": [
+            {
+                "id": 951,
+                "name": "bandwidth"
+            },
+            {
+                "id": 776,
+                "name": "panel"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 103,
+        "category": {
+            "id": 1,
+            "name": "Dogs"
+        },
+        "name": "Charlie",
+        "photoUrls": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVL9tfVWVWLX8jiKGmbm4PhI8VGIqpM0GVxQ&s"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "friendly"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 202811,
+        "name": "Rocky_The_Parrot",
+        "photoUrls": [],
+        "tags": [],
+        "status": "sold"
+    },
+    {
+        "id": 1649500121,
+        "name": "SoldPet",
+        "photoUrls": [],
+        "tags": [],
+        "status": "sold"
+    },
+    {
+        "id": 377134439,
+        "name": "SoldPet",
+        "photoUrls": [],
+        "tags": [],
+        "status": "sold"
+    },
+    {
+        "id": 12,
+        "category": {
+            "id": 0,
+            "name": "dogs"
+        },
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    }
+]

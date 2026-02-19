@@ -1,0 +1,18 @@
+{
+    "id": 79,
+    "category": {
+        "id": 94,
+        "name": "this.odt"
+    },
+    "name": "John Carroll",
+    "photoUrls": [
+        "https://stafford.com/"
+    ],
+    "tags": [
+        {
+            "id": 97,
+            "name": "robertfreeman"
+        }
+    ],
+    "status": "available"
+}

@@ -1,1 +1,1 @@
-{"total":1,"items":[{"uid":"ef688e7c0310257a9e598a3ecfb6775d","name":"Petstore","statistic":{"failed":0,"broken":1,"skipped":0,"passed":0,"unknown":0,"total":1}}]}
+{"total":1,"items":[{"uid":"ef688e7c0310257a9e598a3ecfb6775d","name":"Petstore","statistic":{"failed":0,"broken":0,"skipped":0,"passed":2,"unknown":0,"total":2}}]}

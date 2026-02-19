@@ -1,0 +1,18 @@
+{
+    "id": 1,
+    "category": {
+        "id": 98,
+        "name": "attention.webm"
+    },
+    "name": "Rebecca Hart",
+    "photoUrls": [
+        "https://brown.com/"
+    ],
+    "tags": [
+        {
+            "id": 35,
+            "name": "melissa69"
+        }
+    ],
+    "status": "available"
+}

@@ -1,0 +1,1534 @@
+[
+    {
+        "id": 87705905,
+        "category": {
+            "id": 22032096,
+            "name": "reprehenderit in minim"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "cillum Ut ",
+            "et adipisicing consequat"
+        ],
+        "tags": [
+            {
+                "id": -14103627,
+                "name": "reprehenderit"
+            },
+            {
+                "id": 47181501,
+                "name": "occaecat"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 79897977,
+        "category": {
+            "id": -43696612,
+            "name": "exercitation"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "dolor",
+            "velit voluptate"
+        ],
+        "tags": [
+            {
+                "id": 59218385,
+                "name": "aliqua"
+            },
+            {
+                "id": 72829050,
+                "name": "nostrud ut"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 71551342,
+        "category": {
+            "id": 14955550,
+            "name": "ipsum do amet"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "dolore dolor",
+            "pariatur elit ea"
+        ],
+        "tags": [
+            {
+                "id": -17398234,
+                "name": "non ex"
+            },
+            {
+                "id": -32010324,
+                "name": "ut culpa aliqua est non"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 60,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 52931566,
+        "category": {
+            "id": 91307171,
+            "name": "sint aliqua"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "ut culpa null",
+            "quis"
+        ],
+        "tags": [
+            {
+                "id": -40794559,
+                "name": "velit proident nulla"
+            },
+            {
+                "id": -14228534,
+                "name": "ess"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 5644444,
+        "category": {
+            "id": 566555,
+            "name": "nulla minim laborum deserunt"
+        },
+        "name": "Собака",
+        "photoUrls": [
+            "anim ullamco laborum eu",
+            "eiusm"
+        ],
+        "tags": [
+            {
+                "id": 10156776,
+                "name": "cillum adipisicing"
+            },
+            {
+                "id": -53013483,
+                "name": "sit Ut enim dolore"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 23437566,
+        "category": {
+            "id": -46393995,
+            "name": "ex ea culpa"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "ut ex veniam dolor",
+            "in aliquip"
+        ],
+        "tags": [
+            {
+                "id": 91638732,
+                "name": "Excepteur ea commodo esse"
+            },
+            {
+                "id": 42980181,
+                "name": "nulla officia ut labore"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 38480305,
+        "category": {
+            "id": -59161747,
+            "name": "Duis voluptate consequat"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "ex enim ",
+            "nisi est"
+        ],
+        "tags": [
+            {
+                "id": 49121599,
+                "name": "non anim exercitation"
+            },
+            {
+                "id": 2672065,
+                "name": "sint"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 1003,
+        "name": "New Name 3",
+        "photoUrls": [
+            "https://example.com/photo.jpg"
+        ],
+        "tags": [],
+        "status": "sold"
+    },
+    {
+        "id": 708814,
+        "name": "Thai Bangkaew Dog",
+        "photoUrls": [],
+        "tags": [],
+        "status": "sold"
+    },
+    {
+        "id": 76621170,
+        "category": {
+            "id": 16364966,
+            "name": "Ut cupidatat velit irure minim"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "dolore quis",
+            "elit ea aliqua dolor adipisicing"
+        ],
+        "tags": [
+            {
+                "id": 24591216,
+                "name": "ullamco magna laborum ut"
+            },
+            {
+                "id": 52512638,
+                "name": "sunt non Lorem"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 1711982,
+        "category": {
+            "id": 52551857,
+            "name": "non Lorem tempor"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "veniam",
+            "reprehenderit commodo proident occaecat"
+        ],
+        "tags": [
+            {
+                "id": -12689894,
+                "name": "veniam mollit"
+            },
+            {
+                "id": -27514803,
+                "name": "sed ullamco ut"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 90369791,
+        "category": {
+            "id": -28594492,
+            "name": "ad"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "nulla ipsum dolor",
+            "cillum"
+        ],
+        "tags": [
+            {
+                "id": 16964237,
+                "name": "velit aliquip occaecat voluptate"
+            },
+            {
+                "id": -32143651,
+                "name": "sed nulla sint"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 62348053,
+        "category": {
+            "id": 38125450,
+            "name": "in ipsum eu exercitation"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "reprehenderit velit enim voluptate",
+            "sit aliquip"
+        ],
+        "tags": [
+            {
+                "id": -75638954,
+                "name": "Ut"
+            },
+            {
+                "id": -32534044,
+                "name": "occaecat qui commodo"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 40010473,
+        "category": {
+            "id": -13430874,
+            "name": "in fugiat ipsum"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "proident sed ut",
+            "aute laboris elit occaecat aliquip"
+        ],
+        "tags": [
+            {
+                "id": -64712721,
+                "name": "ad"
+            },
+            {
+                "id": 40504054,
+                "name": "in"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 23327731,
+        "category": {
+            "id": -92357313,
+            "name": "reprehenderit ut nostrud ut"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "Lorem laboris",
+            "laboris"
+        ],
+        "tags": [
+            {
+                "id": 89386643,
+                "name": "elit esse cillum"
+            },
+            {
+                "id": -23396785,
+                "name": "minim consectetur"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 24572652,
+        "category": {
+            "id": 70314021,
+            "name": "adipisicing dolore"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "magna dolor Ut in",
+            "in eiusm"
+        ],
+        "tags": [
+            {
+                "id": 85643839,
+                "name": "aliquip sit dolor"
+            },
+            {
+                "id": -89364963,
+                "name": "elit id reprehenderit eiusmod exercitation"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 33845545,
+        "category": {
+            "id": -13100367,
+            "name": "deserunt aute irure"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "dolore reprehenderit adipisicing sed",
+            "tempor irure consectetur amet"
+        ],
+        "tags": [
+            {
+                "id": -43225306,
+                "name": "laborum proident Excepteur"
+            },
+            {
+                "id": -7466415,
+                "name": "ut in cupidatat laboris"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 82188160,
+        "category": {
+            "id": 81640824,
+            "name": "nisi exercitation reprehenderit dolore"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "proident eu enim",
+            "mollit cillum nisi"
+        ],
+        "tags": [
+            {
+                "id": 6316356,
+                "name": "laborum magn"
+            },
+            {
+                "id": 73149614,
+                "name": "veniam fugiat amet si"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 38541659,
+        "category": {
+            "id": -70999792,
+            "name": "dolore aliqua irure"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "cupidatat quis",
+            "ipsum deserunt"
+        ],
+        "tags": [
+            {
+                "id": 96985450,
+                "name": "proident adipisicing officia"
+            },
+            {
+                "id": -17203769,
+                "name": "sunt reprehenderit"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 15904,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Princesa",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 16591,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Princesa",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 94994,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Princesa",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 80319,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Princesa",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 40146,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Princesa",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 91625,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Princesa",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 70470,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Princesa",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 15291,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Princesa",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 16867,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Princesa",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 38110,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Princesa",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 68338,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Princesa",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 31078,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Princesa",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 80738,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Princesa",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 15328,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Princesa",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 33835,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Princesa",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 47074,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Princesa",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 78084,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Princesa",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 61053,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Princesa",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 12190,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Princesa",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 60568,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Princesa",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 55155,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Princesa",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 47855,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Princesa",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 56689,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Princesa",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 72374,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Princesa",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 47289,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Princesa",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 15638,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Princesa",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 88749,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Princesa",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 99163,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Princesa",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 64612,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Princesa",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 99230,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Princesa",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 10003,
+        "name": "Charlie",
+        "photoUrls": [
+            "https://example.com/photo.jpg"
+        ],
+        "tags": [],
+        "status": "sold"
+    },
+    {
+        "id": 49199499,
+        "category": {
+            "id": 20305865,
+            "name": "et cupidatat nisi incididunt"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "sunt esse consequat",
+            "Ut nostrud anim adipisicing"
+        ],
+        "tags": [
+            {
+                "id": 33995919,
+                "name": "tempor non nostrud"
+            },
+            {
+                "id": -54707686,
+                "name": "qui pariatur"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 36872199,
+        "category": {
+            "id": 87131763,
+            "name": "consectetur"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "officia",
+            "fugiat Duis sint"
+        ],
+        "tags": [
+            {
+                "id": -32111804,
+                "name": "sit consectetur"
+            },
+            {
+                "id": -4313164,
+                "name": "consectetur nulla laborum id"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 1771545078734,
+        "category": {
+            "id": 1,
+            "name": "cat-name"
+        },
+        "name": "pet-sekc6fm8",
+        "photoUrls": [
+            "photoUrl"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "tag-name"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 1771546062015,
+        "category": {
+            "id": 1,
+            "name": "cat-name"
+        },
+        "name": "pet-x28qxv20",
+        "photoUrls": [
+            "photoUrl"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "tag-name"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 1771546865351,
+        "category": {
+            "id": 1,
+            "name": "cat-name"
+        },
+        "name": "pet-k01q2sfy",
+        "photoUrls": [
+            "photoUrl"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "tag-name"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 1771546948838,
+        "category": {
+            "id": 1,
+            "name": "cat-name"
+        },
+        "name": "pet-xve7owq9",
+        "photoUrls": [
+            "photoUrl"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "tag-name"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 1771547054238,
+        "category": {
+            "id": 1,
+            "name": "cat-name"
+        },
+        "name": "pet-fm2fseys",
+        "photoUrls": [
+            "photoUrl"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "tag-name"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 17,
+        "name": "Special_char_owner_!@#$^&()`.testing",
+        "photoUrls": [
+            "https://petstore3.swagger.io/resources/photos/623389095.jpg"
+        ],
+        "tags": [],
+        "status": "sold"
+    },
+    {
+        "id": 1771547437618,
+        "category": {
+            "id": 1,
+            "name": "cat-name"
+        },
+        "name": "pet-qvpyl420",
+        "photoUrls": [
+            "photoUrl"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "tag-name"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 1771547651014,
+        "category": {
+            "id": 1,
+            "name": "cat-name"
+        },
+        "name": "pet-cj3hkg8v",
+        "photoUrls": [
+            "photoUrl"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "tag-name"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 1771547835485,
+        "category": {
+            "id": 1,
+            "name": "cat-name"
+        },
+        "name": "pet-h2xe0w6t",
+        "photoUrls": [
+            "photoUrl"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "tag-name"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 1771548930372,
+        "category": {
+            "id": 1,
+            "name": "cat-name"
+        },
+        "name": "pet-1ox0oewy",
+        "photoUrls": [
+            "photoUrl"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "tag-name"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 23688827,
+        "category": {
+            "id": 38199557,
+            "name": "officia in"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "culpa aliqua do Ut",
+            "pariatur non qui"
+        ],
+        "tags": [
+            {
+                "id": -59409203,
+                "name": "irure id dolor D"
+            },
+            {
+                "id": -8983193,
+                "name": "amet Duis"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 1771549853516,
+        "category": {
+            "id": 1,
+            "name": "cat-name"
+        },
+        "name": "pet-phsonsvm",
+        "photoUrls": [
+            "photoUrl"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "tag-name"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 1771550024136,
+        "category": {
+            "id": 1,
+            "name": "cat-name"
+        },
+        "name": "pet-mzpkmry6",
+        "photoUrls": [
+            "photoUrl"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "tag-name"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 917273720,
+        "category": {
+            "id": -29245128,
+            "name": "incididunt"
+        },
+        "name": "executing_from_test",
+        "photoUrls": [
+            "dolore Excepteur est",
+            "consequat in labore"
+        ],
+        "tags": [
+            {
+                "id": -55902183,
+                "name": "Lorem laboris nulla"
+            },
+            {
+                "id": 67424482,
+                "name": "incididunt ipsum eiusmod"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 109,
+        "category": {
+            "id": 9,
+            "name": "Insects"
+        },
+        "name": "Oscar",
+        "photoUrls": [
+            "http://example.com/photo9.jpg"
+        ],
+        "tags": [
+            {
+                "id": 9,
+                "name": "tiny"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 118,
+        "category": {
+            "id": 18,
+            "name": "Mythical Creatures"
+        },
+        "name": "Gizmo",
+        "photoUrls": [
+            "http://example.com/photo18.jpg"
+        ],
+        "tags": [
+            {
+                "id": 18,
+                "name": "legendary"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 13,
+        "category": {
+            "id": 0,
+            "name": "cats"
+        },
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 1101010118,
+        "category": {
+            "id": 3465262311933485514,
+            "name": "kNHrnHoFEVuZeHGm"
+        },
+        "name": "nRQOigrqHlhTR",
+        "photoUrls": [
+            "http://harry.atg.se/4c8SP2/cfIi7tZJ6/RY0JEH/GPcEIz1jL"
+        ],
+        "tags": [
+            {
+                "id": 1479750968279760429,
+                "name": "vGorgAP"
+            },
+            {
+                "id": 8918204344289704803,
+                "name": "ubFHwNPtkp"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 1101010106,
+        "category": {
+            "id": 5474452076577763558,
+            "name": "fjLQxLBYvR"
+        },
+        "name": "CiedOeYvNZohkRf",
+        "photoUrls": [
+            "http://harry.atg.se/lyK19xuki/zqJwWy/fXqdyACE"
+        ],
+        "tags": [
+            {
+                "id": 8348469810438795586,
+                "name": "bXPmKlCIgicOZlpOK"
+            },
+            {
+                "id": 2397716734427088069,
+                "name": "sOKNPoLDqh"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 9,
+        "category": {
+            "id": 0,
+            "name": "cats"
+        },
+        "name": "King Kong",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 58125,
+        "category": {
+            "id": 1,
+            "name": "Dogs"
+        },
+        "name": "Pet with sold status",
+        "photoUrls": [
+            "https://example.com/photo1.jpg",
+            "https://example.com/photo2.jpg"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "friendly"
+            },
+            {
+                "id": 2,
+                "name": "trained"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 620848,
+        "category": {
+            "id": 8,
+            "name": "Reptiles"
+        },
+        "name": "Barbara",
+        "photoUrls": [
+            "https://dummyimage.com/747x664"
+        ],
+        "tags": [
+            {
+                "id": 40,
+                "name": "bit"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 553414,
+        "category": {
+            "id": 10,
+            "name": "Cats"
+        },
+        "name": "Shelly",
+        "photoUrls": [
+            "https://picsum.photos/838/103"
+        ],
+        "tags": [
+            {
+                "id": 89,
+                "name": "agreement"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 75,
+        "category": {
+            "id": 49,
+            "name": "sint in d"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "in qui",
+            "dolore nisi ad enim ut"
+        ],
+        "tags": [
+            {
+                "id": 7967,
+                "name": "anim occaecat sed irure"
+            },
+            {
+                "id": 80014622,
+                "name": "ut enim aute officia"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 111111,
+        "category": {
+            "id": 11111,
+            "name": "string"
+        },
+        "name": "puppy",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 111,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 777,
+        "category": {
+            "id": 888,
+            "name": "This is my new category"
+        },
+        "name": "This is my new pet",
+        "tags": [],
+        "status": "sold"
+    },
+    {
+        "id": 362285,
+        "category": {
+            "id": 1,
+            "name": "Dogs"
+        },
+        "name": "UpdatedDog-362285",
+        "photoUrls": [
+            "https://example.com/photo1.jpg"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "test-tag"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 2061508564976430074,
+        "category": {
+            "id": -134574299
+        },
+        "name": "",
+        "photoUrls": [
+            "𱦭°",
+            "ãN񗃲è돽O",
+            "",
+            "Ù򳬱Èè󀯑y",
+            "Úe³򠋫Z"
+        ],
+        "tags": [],
+        "status": "sold"
+    }
+]

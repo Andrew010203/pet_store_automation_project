@@ -1,0 +1,59 @@
+[
+    {
+        "id": 532,
+        "category": {
+            "id": 72,
+            "name": "Category_Pet_531"
+        },
+        "name": "Pet_531",
+        "photoUrls": [],
+        "tags": [
+            {
+                "id": 15,
+                "name": "Tag_Pet_531"
+            }
+        ],
+        "status": "invalid_status"
+    },
+    {
+        "id": 861,
+        "category": {
+            "id": 34,
+            "name": "Category_Pet_860"
+        },
+        "name": "Pet_860",
+        "photoUrls": [],
+        "tags": [
+            {
+                "id": 69,
+                "name": "Tag_Pet_860"
+            }
+        ],
+        "status": "invalid_status"
+    },
+    {
+        "id": 944,
+        "category": {
+            "id": 87,
+            "name": "Category_Pet_943"
+        },
+        "name": "Pet_943",
+        "photoUrls": [],
+        "tags": [
+            {
+                "id": 1,
+                "name": "Tag_Pet_943"
+            }
+        ],
+        "status": "invalid_status"
+    },
+    {
+        "id": 20003,
+        "name": "TestPet",
+        "photoUrls": [
+            "url"
+        ],
+        "tags": [],
+        "status": "invalid_status"
+    }
+]

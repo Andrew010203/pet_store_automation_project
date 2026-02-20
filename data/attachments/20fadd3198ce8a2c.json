@@ -1,0 +1,18 @@
+{
+    "id": 80,
+    "category": {
+        "id": 21,
+        "name": "general.pptx"
+    },
+    "name": "Alexandria White",
+    "photoUrls": [
+        "http://bauer-lee.com/"
+    ],
+    "tags": [
+        {
+            "id": 54,
+            "name": "hughesdarren"
+        }
+    ],
+    "status": "available"
+}

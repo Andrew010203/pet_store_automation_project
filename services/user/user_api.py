@@ -42,12 +42,11 @@ class UserApi(Helper):
         self.attach_response(response)
         if expected_status == 200:
             self.validate_response(response, GetUserByUsernameResponse)
+            print(response.json().get("username"))
         else:
             assert response.status_code == expected_status, f"Expected {expected_status}, but got {response.status_code}"
         print(f"Status: {response.status_code}")
-        print(response.json())
-        username = response.json()["username"]
-        print(username)
+
 
 
 

@@ -48,7 +48,7 @@ class TestUser(BaseTest):
         username = self.user_api.creates_list_of_users_with_given_input_array()
         print(username)
         self.user_api.delete_user(username)
-        self.user_api.get_user_by_username(username, expected_status=404)  # проверка, что user удалился из базы
+        self.user_api.get_user_by_username(username, expected_status=404)
 
 
     @allure.title("Logs user into the system")

@@ -1,0 +1,18 @@
+{
+    "id": 37,
+    "category": {
+        "id": 57,
+        "name": "true.png"
+    },
+    "name": "Karen Kennedy",
+    "photoUrls": [
+        "http://hansen.com/"
+    ],
+    "tags": [
+        {
+            "id": 96,
+            "name": "nataliejones"
+        }
+    ],
+    "status": "available"
+}

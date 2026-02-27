@@ -1,0 +1,18 @@
+{
+    "id": 54,
+    "category": {
+        "id": 11,
+        "name": "summer.css"
+    },
+    "name": "Joan Flores",
+    "photoUrls": [
+        "https://boyd-alvarez.com/"
+    ],
+    "tags": [
+        {
+            "id": 69,
+            "name": "uriddle"
+        }
+    ],
+    "status": "available"
+}

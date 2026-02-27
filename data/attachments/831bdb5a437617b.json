@@ -1,0 +1,18 @@
+{
+    "id": 63,
+    "category": {
+        "id": 100,
+        "name": "hotel.mov"
+    },
+    "name": "Valerie Hall",
+    "photoUrls": [
+        "http://www.garner-vega.com/"
+    ],
+    "tags": [
+        {
+            "id": 62,
+            "name": "jessica86"
+        }
+    ],
+    "status": "available"
+}

@@ -1,0 +1,18 @@
+{
+    "id": 99,
+    "category": {
+        "id": 61,
+        "name": "outside.jpeg"
+    },
+    "name": "Jose Jones",
+    "photoUrls": [
+        "http://nelson.com/"
+    ],
+    "tags": [
+        {
+            "id": 34,
+            "name": "alinatasha"
+        }
+    ],
+    "status": "available"
+}

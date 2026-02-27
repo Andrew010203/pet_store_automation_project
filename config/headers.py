@@ -17,3 +17,12 @@ class Headers:
         'accept': 'application/json',
         'Content-Type': 'application/json'
     }
+
+    user_header = {
+        'accept': 'application/json',
+        'Content-Type': 'application/json'
+    }
+
+    get_user_into_the_system = {
+        'accept': 'application/json'
+    }

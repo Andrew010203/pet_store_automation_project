@@ -19,7 +19,7 @@ class StoreApi(Helper):
     @allure.step("Returns pet inventories by status")
     def returns_pet_inventories_by_status(self):
         response = requests.get(url=self.endpoints.inventory)
-        self.attach_response(response.json())
+        self.attach_response(response)
         self.validate_response(response, InventoryResponse)
         print(f"Status: {response.status_code}")
 

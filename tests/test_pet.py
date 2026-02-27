@@ -2,10 +2,6 @@ import allure
 import pytest
 from config.base_test import BaseTest
 
-# expected_status = None
-# response = None
-# status_code = None
-
 @allure.epic("Petstore")
 @allure.feature("Pet")
 class TestPet(BaseTest):

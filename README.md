@@ -1,6 +1,3 @@
-# pet_store_automation_project
-# pet_store_automation_project
-markdown
 # 🐾 Petstore API Test Automation Framework
 
 ![Python](https://img.shields.io)
